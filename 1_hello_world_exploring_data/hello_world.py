@@ -111,4 +111,4 @@ while i!=-1:
         plot_value_array(i, predictions,  test_labels)
         plt.show()
         i=0
-#Comment to see git change
+
