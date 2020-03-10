@@ -70,7 +70,7 @@ for i in range(10001):
 
     rrep_gstep, grep_gstep = sess.run([r_rep, g_rep], feed_dict={X: X_batch, Z: Z_batch})
 
-    print "Iterations: %d\t Discriminator loss: %.4f\t Generator loss: %.4f"%(i,dloss,gloss)
+    print ("Iterations: %d\t Discriminator loss: %.4f\t Generator loss: %.4f"%(i,dloss,gloss))
     if i%10 == 0:
         f.write("%d,%f,%f\n"%(i,dloss,gloss))
 
